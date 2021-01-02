@@ -6,16 +6,17 @@
     <link rel="stylesheet" href="tailwind.css">
     <title>Food &#127854;</title>
 </head>
-<body class="text-yellow-500">
+<body class="text-gray-600 font-Roboto">
     <!--content wrapper-->
     <div>
         <!--Navigation-->
         <section>
             <nav>
                 <div>
-                    <h1><a href="/">Food Ninja</a></h1>
+                    <h1 class="font-bold uppercase p-4 border-b border-gray-100">
+                        <a href="/">Food Ninja</a></h1>
                 </div>
-                <ul>
+                <ul class="text-gray-700">
                     <li>
                         <a href="#">
                             <span>Home</span>
@@ -34,19 +35,19 @@
                 </ul>
             </nav>
         </section>
-        <main>
+        <main class="px-16 py-6">
             <div>
-                <a href="#">Sign up</a>
-                <a href="#">Log in</a>
+                <a href="#" class="text-primary">Sign up</a>
+                <a href="#" class="text-primary">Log in</a>
             </div>
             <header>
-                <h2>Receipes</h2>
-                <h3>For Ninjas</h3>
+                <h2 class="text-gray-700 text-6xl font-semibold">Receipes</h2>
+                <h3 class="text-2xl font-semibold">For Ninjas</h3>
             </header>
 
             <div>
-                <h4>Latest Receipes</h4>
-                <div>
+                <h4 class="font-bold mt-12 pb-2 border-b border-gray-300">Latest Receipes</h4>
+                <div class="mt-8">
                     <!--Cards Go Here-->
                     <div>
                         <img src="imgs/stew.jpg" alt="Stew">
@@ -58,13 +59,13 @@
                 </div>
             </div>
 
-                <h4>Most Recent Receipes</h4>
-                <div>
+                <h4 class="font-bold mt-12 pb-2 border-b border-gray-300">Most Popular Receipes</h4>
+                <div class="mt-8">
                     <!--Cards Goes Here-->
                 </div>
 
                 <div>
-                    <div>Load more</div>
+                    <div class="text-secondary-200 bg-secondary-100">Load more</div>
                 </div>
 
         </main>
